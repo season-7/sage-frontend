@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Play);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 html, body {
     background: #ecf0f1;
     height: 100%;
@@ -20,36 +23,8 @@ ul {
 }
 
 #container {
-/*	display: table;*/
     width: 100%;
-    min-height: 100%;
-}
-
-#header, #content, #footer {
-/*    display: table-row;
-    padding: 100px;*/
-}
-
-#header-wrapper, #content-wrapper, #footer-wrapper {
-    min-height: 100%;
-    border: 2px solid black;
-    overflow: auto;
-    margin: 0 5px;
-    
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-}
-
-.fill-header-wrapper, .fill-content-wrapper, .fill-footer-wrapper {
-    position: relative;
-    min-height: 100;
-    margin: 0 auto;
-    align-items: stretch;
-    width: 100%;
-    margin: 10px;
+    height: 100%;
 }
 
 /*....................................................................................................................
@@ -177,12 +152,68 @@ Header Section
     color: #fff;
     padding: 0;
     margin: 0;
+    background: #362D30;
+    
 }
 
 .banner{
     padding: 20px;
     border: 1px solid;
     margin: 10px 0;
+    height: auto;
+    background: #362D30;
+}
+
+.links{
+    position: relative;
+    height: 70px;
+    background: #362D30;
+}
+.logo {
+    background: #F63C3D;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.navigation{
+    position: absolute;
+    top: 0;
+    left: 70px;
+    right: 105px;
+    height: 70px;
+    background: transparent;
+}
+
+.social{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 70px;
+    width: 100px;
+    background: yellow;
+}
+
+.caption-text{
+    padding: 200px 150px;
+    background: #362D30;
+}
+
+.caption-text p{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+}
+
+.caption-text h5{
+    padding: 20px 200px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*....................................................................................................................
