@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Play);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 html, body {
     background: #ecf0f1;
     height: 100%;
@@ -20,36 +23,8 @@ ul {
 }
 
 #container {
-/*	display: table;*/
     width: 100%;
-    min-height: 100%;
-}
-
-#header, #content, #footer {
-/*    display: table-row;
-    padding: 100px;*/
-}
-
-#header-wrapper, #content-wrapper, #footer-wrapper {
-    min-height: 100%;
-    border: 2px solid black;
-    overflow: auto;
-    margin: 0 5px;
-    
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-}
-
-.fill-header-wrapper, .fill-content-wrapper, .fill-footer-wrapper {
-    position: relative;
-    min-height: 100;
-    margin: 0 auto;
-    align-items: stretch;
-    width: 100%;
-    margin: 10px;
+    height: 100%;
 }
 
 /*....................................................................................................................
@@ -177,12 +152,104 @@ Header Section
     color: #fff;
     padding: 0;
     margin: 0;
+    background: #362D30;
+    
 }
 
 .banner{
     padding: 20px;
     border: 1px solid;
     margin: 10px 0;
+    height: auto;
+    background: #362D30;
+}
+
+.links{
+    position: relative;
+    height: 70px;
+    background: #362D30;
+}
+.logo {
+    background: #F63C3D;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.navigation{
+    position: absolute;
+    top: 0;
+    left: 70px;
+    right: 105px;
+    height: 70px;
+    background: transparent;
+}
+
+.social{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 70px;
+    width: 100px;
+    background: yellow;
+}
+
+.caption-text{
+    width: 100%;
+    padding: 200px 300px;
+    background: #362D30;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.caption-text p{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+}
+
+.caption-text h5{
+    padding: 18px 150px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px
+}
+
+.caption-text a{
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    margin-left: 42% 
+}
+
+.hrs {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.hr {
+    display: inline-block;
+    width: 35px;
+    border-bottom: 5px solid grey;
+}
+
+.hr:first-child {
+    display: inline-block;
+    width: 35px;
+    border-bottom: 5px solid #fff;
 }
 
 /*....................................................................................................................
@@ -197,11 +264,120 @@ Content Section
 }
 
 .projects{
-    
+    padding: 0 !important;
+}
+
+.highlighted-projects {
+    padding-left: 300px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 80px
+}
+
+.highlighted-projects p{
+    color: #000;
+    line-height: 22px
+}
+
+.highlighted-projects h3{
+    margin-top: 30px;
+    color: #000;
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+}
+
+.blank {
+    background: #362D30;
+    padding: 0px;
+}
+
+.blank .col-3{
+    background: #362D30;
+    height: 200px;
+    border: none;
+}
+
+.blank .col-3{
+    background: #362D30;
+    height: 200px;
+    border: none;
+}
+
+.discover-more {
+    color: #000;
+    padding-top: 40px;
+    background: #FAFAFA;
+}
+
+.discover-more a{
+    text-align: center;
+    color: #fff;
+    background: #F63C3D;
+    padding: 10px 30px;
+    margin-left: 38%;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 5px;
+}
+
+.discover-more p{
+    margin-top: 20px;
+    color: #000;
+    margin-left: 38%;
+    margin-bottom: 20px;
+    font-size: 13px;
 }
 
 .our-history{
-    
+    padding: 0px;
+}
+
+.history{
+    padding-left: 300px;
+    padding-right: 30px;
+}
+
+.history h3{
+    color: #000;
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+    padding: 20px 0;
+}
+
+.history p{
+    color: #002;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.history .link{
+    color: #fff;
+    margin: 30px 0;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 5px;
+    height: auto;
+    padding: 10px 0;
+}
+
+.history a{
+    text-align: center;
+    color: #fff;
+    background: #F63C3D;
+    padding: 10px 30px;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 5px;
+}
+
+.history .sage-logo {
+    text-align: center;
+    padding: 100px;
+    background: black;
+}
+
+.history .sage-logo img{
+    text-align: center;
+    width: 100%;
+    background: black;
 }
 
 .services {
