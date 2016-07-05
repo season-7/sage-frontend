@@ -47,15 +47,15 @@ Responsive Grid Section
  
 /* Attribute selector */
 [class*='col-'] {
-  float: left;
-  padding: 10px;
-    border: 1px solid;
+    float: left;
+    padding: 10px;
+    border: 0px solid;
 }
  
 /* Floats last ".bit-" to the right */
 [class*='col-']:last-of-type {
-  padding-right: 10px;
-  float: right;
+    padding-right: 10px;
+    float: right;
 }
  
 .row {
@@ -239,6 +239,7 @@ Header Section
 
 .social i{
     padding: 0 5px;
+    color: #8C8788;
 }
 
 .caption-text{
@@ -407,7 +408,7 @@ Content Section
 .our-history{
     padding: 0px;
     background: #FFFFFF;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .history{
