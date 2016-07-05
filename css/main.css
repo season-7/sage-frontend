@@ -139,7 +139,7 @@ Responsive Grid Section
 }
 
 .padding {
-    padding: 20px 150px;
+    padding: 20px 300px;
 }
 
 /*....................................................................................................................
@@ -189,6 +189,38 @@ Header Section
     right: 105px;
     height: 70px;
     background: transparent;
+    text-align: center;
+}
+
+.navigation nav {
+    padding-top: 15px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.navigation nav ul{
+    height: 100%;
+    display: inline-block;
+}
+
+.navigation nav ul li{
+    height: 100%;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 13px
+}
+
+
+.navigation nav ul li:hover,
+.navigation nav ul li:focused,
+.navigation nav ul li:active{
+    border-bottom: 4px solid #fff;
+    cursor: pointer;
+}
+
+.navigation nav ul li a{
+    text-decoration: none;
 }
 
 .social{
@@ -310,6 +342,7 @@ Content Section
     color: #000;
     padding-top: 40px;
     background: #FAFAFA;
+    padding-left: 300px;
 }
 
 .discover-more a{
@@ -317,7 +350,6 @@ Content Section
     color: #fff;
     background: #F63C3D;
     padding: 10px 30px;
-    margin-left: 38%;
     font-family: 'Play', sans-serif;
     margin-bottom: 5px;
 }
@@ -325,7 +357,6 @@ Content Section
 .discover-more p{
     margin-top: 20px;
     color: #000;
-    margin-left: 38%;
     margin-bottom: 20px;
     font-size: 13px;
 }
