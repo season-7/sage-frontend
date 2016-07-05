@@ -7,6 +7,7 @@ html, body {
     width: 100%;
     margin:0;
 	padding:0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2,h5, h6, ul, li, a {
@@ -329,6 +330,7 @@ Content Section
 
 .our-history{
     padding: 0px;
+    background: #FFFFFF;
 }
 
 .history{
@@ -371,16 +373,44 @@ Content Section
 
 .history .sage-logo {
     text-align: center;
-    padding: 100px;
     background: black;
     text-align: center;
+    padding-right: 300px;
 }
 
 .history .sage-logo img{
     text-align: center;
     width: 100%;
     background: black;
+    float: right;
 }
+
+.projects-types {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.projects-types .col-3 {
+    text-align: center;
+}
+
+.projects-types h4 {
+    color: #F63C3D;
+    font-size: 40px;
+    padding-top: 20px;
+    font-family: 'Play', sans-serif;
+}
+
+.projects-types p {
+    font-size: 14px;
+}
+
+
+/*..................................................................................
+
+Lower Section
+
+..................................................................................*/
 
 .services {
     text-align: left;
