@@ -340,10 +340,42 @@ Content Section
     color: #000;
     font-size: 40px;
     font-family: 'Play', sans-serif;
+    padding: 20px 0;
 }
 
 .history p{
-    color: #000;
+    color: #002;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.history .link{
+    color: #fff;
+    margin: 30px 0;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 5px;
+    height: auto;
+    padding: 10px 0;
+}
+
+.history a{
+    text-align: center;
+    color: #fff;
+    background: #F63C3D;
+    padding: 10px 30px;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 5px;
+}
+
+.history .sage-logo {
+    text-align: center;
+    padding: 100px;
+}
+
+.history .sage-logo img{
+    text-align: center;
+    width: 100%;
 }
 
 .services {
