@@ -334,6 +334,7 @@ Content Section
 .history{
     padding-left: 300px;
     padding-right: 30px;
+    padding-bottom: 120px;
 }
 
 .history h3{
@@ -347,12 +348,12 @@ Content Section
     color: #002;
     margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .history .link{
     color: #fff;
-    margin: 30px 0;
+    margin: 18px 0;
     font-family: 'Play', sans-serif;
     margin-bottom: 5px;
     height: auto;
@@ -372,6 +373,7 @@ Content Section
     text-align: center;
     padding: 100px;
     background: black;
+    text-align: center;
 }
 
 .history .sage-logo img{
