@@ -213,10 +213,13 @@ Header Section
 
 
 .navigation nav ul li:hover,
-.navigation nav ul li:focused,
 .navigation nav ul li:active{
     border-bottom: 4px solid #fff;
     cursor: pointer;
+}
+
+.active {
+    border-bottom: 4px solid #fff;
 }
 
 .navigation nav ul li a{
@@ -229,7 +232,13 @@ Header Section
     right: 0px;
     height: 70px;
     width: 100px;
-    background: yellow;
+    background: transparent;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.social i{
+    padding: 0 5px;
 }
 
 .caption-text{
