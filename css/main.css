@@ -9,7 +9,7 @@ html, body {
 	padding:0;
 }
 
-p, h1, h2, h3, h4, h5, h6, ul, li, a {
+h1, h2,h5, h6, ul, li, a {
     padding: 0;
     margin: 0;
     color: #ecf0f1;
@@ -381,18 +381,32 @@ Content Section
 }
 
 .services {
-    text-align: center;
+    text-align: left;
+    font-size: 24px;
 }
 
+}
 .services .col-3{
-    border: 1px solid;
+    padding: 150px;
+    max-height: 500px;
 }
 
+.services .col-3 h4 {
+    font-size: 18px;
+}
+.services .col-3 p {
+    padding-top: 20px;
+    font-size: 14px;
+    margin: 15px;
+}
 
 .call-to-action {
     padding: 20px;
-    border: 1px solid;
+    /*border: 1px solid;*/
     margin: 10px 0;
+    background-color: black;
+    color: white;
+    float: right;
 }
 
 .very-much-impressed{
