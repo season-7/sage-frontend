@@ -237,6 +237,10 @@ Content Section
     padding: 20px;
     border: 1px solid;
     margin: 10px 0;
+    height: 100px;
+}
+.very-much-impressed img{
+    height: 100px;
 }
 
 .stay-connected{
