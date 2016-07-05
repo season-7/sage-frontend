@@ -371,11 +371,13 @@ Content Section
 .history .sage-logo {
     text-align: center;
     padding: 100px;
+    background: black;
 }
 
 .history .sage-logo img{
     text-align: center;
     width: 100%;
+    background: black;
 }
 
 .services {
