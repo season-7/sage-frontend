@@ -60,6 +60,7 @@ Responsive Grid Section
  
 .row {
     width: 100%;
+    clear: both;
 }
 
 /* Clearfix */
@@ -328,6 +329,39 @@ Content Section
     font-size: 13px;
 }
 
+.color-bg {
+    background: #F63C3D;
+    padding-top: 400px;
+    padding-left: 100px;
+}
+
+.infinity-spaces {
+    padding-right: 300px;
+}
+
+.infinity-spaces h4{
+    font-family: 'Play', sans-serif;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.infinity-spaces h3{
+    font-family: 'Play', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+    padding-bottom: 10px;
+}
+
+.infinity-spaces p{
+    color: #fff;
+    font-size: 13px;
+}
+
+.hr-line {
+    padding: 30px;
+}
+
 .our-history{
     padding: 0px;
     background: #FFFFFF;
@@ -371,17 +405,15 @@ Content Section
     margin-bottom: 5px;
 }
 
-.history .sage-logo {
-    text-align: center;
-    background: black;
-    text-align: center;
+.sage-logo {
+    text-align: right;
     padding-right: 300px;
+    float: right;
+    padding-top: 30px;
 }
 
-.history .sage-logo img{
+.sage-logo img{
     text-align: center;
-    width: 100%;
-    background: black;
     float: right;
 }
 
