@@ -235,6 +235,7 @@ Header Section
     text-align: center;
     margin-top: 20px;
     padding: 0px;
+    padding-bottom: 25px;
     display: inline-block;
 }
 
@@ -359,12 +360,14 @@ Content Section
 }
 
 .hr-line {
-    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 .our-history{
     padding: 0px;
     background: #FFFFFF;
+    padding-top: 30px;
 }
 
 .history{
@@ -420,6 +423,7 @@ Content Section
 .projects-types {
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 30px
 }
 
 .projects-types .col-3 {
