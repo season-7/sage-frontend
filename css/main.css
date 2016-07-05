@@ -290,6 +290,21 @@ Content Section
     background: #362D30;
     padding: 0px;
 }
+.journal-blank{
+background-color: red;
+padding: 0px;
+}
+
+/*.row journal padding h4 {
+color: red;
+background-color: yellow;
+}*/
+
+/*.blank2 {
+    width: 100%;
+    height:100%;
+    margin: 10px;
+}*/
 
 .blank .col-3{
     background: #362D30;
@@ -437,8 +452,22 @@ Footer Section
     color: #fff;
 }
 
+#footer a {
+    height: auto;
+    color: red;
+    display: inline-block;
+    padding-right: 10px;
+}
+#footer p {
+    height: auto;
+    color: red;
+}
+
+
 .terms-of-use {
-    padding: 20px;
-    border: 1px solid;
-    margin: 10px 0;
+    padding: 40px;
+    border: 1px solid red;
+    margin: 20px 0;
+    height: 100%;
+    width: 100%;
 }
