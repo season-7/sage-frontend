@@ -253,3 +253,153 @@ Header Section
     width: 35px;
     border-bottom: 5px solid #fff;
 }
+
+/*....................................................................................................................
+
+Content Section
+
+....................................................................................................................*/
+
+.projects{
+    padding: 0 !important;
+}
+
+.highlighted-projects {
+    padding-left: 300px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 80px
+}
+
+.highlighted-projects p{
+    color: #000;
+    line-height: 22px
+}
+
+.highlighted-projects h3{
+    margin-top: 30px;
+    color: #000;
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+}
+
+.blank {
+    background: #362D30;
+    padding: 0px;
+}
+.journal-blank{
+    background-color: red;
+    padding: 0px;
+}
+
+/*.row journal padding h4 {
+color: red;
+background-color: yellow;
+}*/
+
+/*.blank2 {
+    width: 100%;
+    height:100%;
+    margin: 10px;
+}*/
+.col-3  {
+    width: 33.33%;
+    
+}
+
+.blank .col-3{
+    background: #362D30;
+    height: 200px;
+    border: none;
+}
+
+.blank .col-3{
+    background: #362D30;
+    height: 200px;
+    border: none;
+}
+
+.discover-more {
+    color: #000;
+    padding-top: 40px;
+    background: #FAFAFA;
+    padding-left: 320px;
+}
+
+.discover-more a{
+    text-align: center;
+    color: #fff;
+    background: #F63C3D;
+    padding: 10px 30px;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 5px;
+}
+
+.discover-more p{
+    margin-top: 20px;
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.color-bg {
+    background: #F63C3D;
+    padding-top: 400px;
+    padding-left: 100px;
+}
+
+.infinity-spaces {
+    padding-right: 300px;
+}
+
+.infinity-spaces h4{
+    font-family: 'Play', sans-serif;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.infinity-spaces h3{
+    font-family: 'Play', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+    padding-bottom: 10px;
+}
+
+.infinity-spaces p{
+    color: #fff;
+    font-size: 13px;
+}
+
+.hr-line {
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+    .highlighted-projects {
+        padding-left: 50px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        padding-top: 80px
+    }
+    
+    .discover-more {
+        color: #000;
+        padding-top: 40px;
+        background: #FAFAFA;
+        padding-left: 50px;
+    }
+    
+    .infinity-spaces {
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
