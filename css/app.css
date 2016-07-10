@@ -262,6 +262,7 @@ Content Section
 
 .projects{
     padding: 0 !important;
+    background: #FAFAFA;
 }
 
 .highlighted-projects {
@@ -643,6 +644,44 @@ Lower Section
     padding: 0 30px;
 }
 
+.journal h3{
+    text-align: left;
+    font-size: 40px;
+    padding-top: 250px;
+    padding-bottom: 30px;
+    font-family: 'Play', sans-serif;
+}
+
+@media (min-width: 480px) {
+    .journal{
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 700px) {
+    .journal{
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .journal{
+        padding: 0 100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .journal{
+        padding: 0 300px;
+    }
+}
+
+.journal h5{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+}
+
 @media (min-width: 1400px) {
     .journal{
         padding: 0 300px;
@@ -651,6 +690,11 @@ Lower Section
 
 .journal-container {
     background: #fff;
+    text-align: center;
+}
+
+.journal-container p{
+    font-size: 13px;
 }
 
 .blank-space{
@@ -658,6 +702,79 @@ Lower Section
     height: 150px;
 }
 
+.journal > .columns {
+    padding-left: 0;
+}
+
 .journal-content{
-    padding 20px 40px;
+    padding: 40px 25px;
+}
+
+.journal-content h4{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #F63C3D;
+    font-family: 'Play', sans-serif;
+}
+
+.journal-content button{
+    width: 100%;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    margin-top: 20px;
+}
+
+.journal-content a{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    border: 2px solid #362D30;
+    padding: 10px 20px;;
+    font-family: 'Play', sans-serif;
+    margin-top: 20px;
+}
+
+.very-much-impressed{
+    padding: 20px;
+    border: 1px solid;
+    margin: 0px 0;
+    height: 100px;
+    background: #362D30;
+    height: auto;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.more-articles {
+    text-align: center;
+    padding: 30PX;
+}
+
+.more-articles a{
+    font-size: 13px;
+    font-family: 'Play', sans-serif;
+    border-bottom: 3px solid #362D30;
+    color: #362D30
+}
+
+.very-much-impressed p{
+    color: #eee;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.very-much-impressed a{
+    color: #eee;
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+    margin-top: 170px;
+}
+
+.very-much-impressed img{
+    margin: 10px 30px;
 }
