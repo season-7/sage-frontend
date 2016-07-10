@@ -123,10 +123,10 @@ Header Section
 
 .caption-text{
     width: 100%;
-    padding: 180px 300px;
+    padding: 180px 30px;
     background: #362D30;
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
 }
 
 .caption-text p{
@@ -145,6 +145,81 @@ Header Section
     color: #eee;
 }
 
+@media (max-width: 1200px) {
+    .caption-text{
+        width: 100%;
+        padding: 130px 30px;
+        background: #362D30;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 0px;
+    }
+    .caption-text p{
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
+        color: #eee;
+    }
+
+    .caption-text h5{
+        padding: 18px 130px;
+        font-size: 13px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 20px;
+        color: #eee;
+    }
+}
+
+@media (max-width: 768px) {
+    .caption-text{
+        width: 100%;
+        padding: 130px 0px;
+        background: #362D30;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 0px;
+    }
+    .caption-text p{
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
+        color: #eee;
+    }
+
+    .caption-text h5{
+        padding: 50px 0px;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 20px;
+        color: #eee;
+    }
+}
+
+@media (max-width: 480px) {
+    .caption-text{
+        width: 100%;
+        padding: 130px 0px;
+        background: #362D30;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 0px;
+    }
+    .caption-text p{
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
+        color: #eee;
+    }
+
+    .caption-text h5{
+        padding: 50px 0px;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 20px;
+        color: #eee;
+    }
+}
+
 .caption-text a{
     margin: 20px;
     padding: 10px 20px;
@@ -156,7 +231,7 @@ Header Section
 
 .hrs {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 120px;
     padding: 0px;
     padding-bottom: 5px;
     display: inline-block;
