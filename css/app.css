@@ -396,10 +396,108 @@ background-color: yellow;
     }
 }
 
-@media (max-width: 768px) {
-    
+.our-history{
+    padding: 0px;
+    background: #FFFFFF;
+    padding-top: 50px;
 }
 
-@media (max-width: 480px) {
+.history{
+    padding-left: 300px;
+    padding-right: 30px;
+    padding-bottom: 120px;
+}
+
+.history h3{
+    color: #000;
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+    padding: 20px 0;
+}
+
+.history p{
+    color: #002;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.history .link{
+    color: #fff;
+    margin: 18px 0;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 5px;
+    height: auto;
+    padding: 10px 0;
+}
+
+.history a{
+    text-align: center;
+    color: #fff;
+    background: #F63C3D;
+    padding: 10px 30px;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.sage-logo {
+    text-align: right;
+    padding-right: 300px;
+    float: right;
+    padding-top: 0px;
+    margin-top: -40px;
+}
+
+.sage-logo img{
+    text-align: center;
+    float: right;
+}
+
+.projects-types {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+.projects-types .col-3 {
+    text-align: center;
+    display: inline-block;
+}
+
+.projects-types h4 {
+    color: #F63C3D;
+    font-size: 40px;
+    padding-top: 20px;
+    font-family: 'Play', sans-serif;
+}
+
+.projects-types p {
+    font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+    .projects-types {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+        display: inline-block;
+        width: 100%;
+    }
     
+    .history{
+        padding-left: 50px;
+        padding-right: 30px;
+        padding-bottom: 120px;
+    }
+    
+    .sage-logo {
+        text-align: right;
+        padding-right: 50px;
+        float: right;
+        padding-top: 0px;
+        margin-top: -40px;
+    }
 }
