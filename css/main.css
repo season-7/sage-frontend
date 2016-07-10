@@ -583,6 +583,11 @@ Lower Section
     border: 1px solid;
     margin: 10px 0;
     height: 100px;
+    background: #362D30;
+    height: auto;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 .very-much-impressed img{
     height: 100px;
@@ -594,6 +599,46 @@ Lower Section
     margin: 10px 0;
 }
 
+.connected {
+    padding-left: 300px;
+    padding-right: 100px
+}
+
+.connected h4{
+    text-align: left;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Play', sans-serif;
+    padding-right: 50px;
+}
+
+.connected p{
+    text-align: left;
+    font-size: 13px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
+.connected input{
+    padding: 10px;
+}
+
+.connected a{
+    padding: 12px 20px;
+    background: #F63C3D;
+    font-family: 'Play', sans-serif;
+    font-size: 13px
+}
+
+.email{
+    width: 70%;
+    margin: 0;
+}
+
+.sign-up{
+    margin: 0;
+}
 /*....................................................................................................................
 
 Footer Section
@@ -604,6 +649,8 @@ Footer Section
     height: auto;
     width: 100%;
     color: #fff;
+    background: #fff;
+    border: none;
 }
 
 #footer a {
@@ -622,23 +669,22 @@ Footer Section
 
 
 .terms-of-use {
-    padding: 40px 300px;
+    padding: 10px 300px;
     border: 1px solid red;
-    margin: 20px 0;
+    margin: 0px 0;
     height: 100%;
     width: 100%;
+    background: #fff;
 }
 
 .copyright {
     height: 100%;
-    padding-top: 25px;
     font-size: 12px;
     color: #000;
 }
 
 .terms {
     height: 100%;
-    padding-top: 25px;
     font-size: 12px;
     text-align: right;
     display: inline-block;
