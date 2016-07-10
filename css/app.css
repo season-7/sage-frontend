@@ -602,3 +602,37 @@ Lower Section
     }
     
 }
+
+.call-to-action {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    float: right;
+    padding: 30px 20px !important;
+    text-align: center;
+    background: #362D30;
+    width: 100%;
+}
+
+.call-to-action h4{
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    padding: 10px
+}
+
+.call-to-action p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px
+}
+
+.call-to-action a{
+    font-size: 12px;
+    font-family: 'Play', sans-serif;
+    padding-bottom:3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 3px solid;
+    color: #fff;
+}
