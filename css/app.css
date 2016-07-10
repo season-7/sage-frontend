@@ -501,3 +501,104 @@ background-color: yellow;
         margin-top: -40px;
     }
 }
+
+/*..................................................................................
+
+Lower Section
+
+..................................................................................*/
+
+.services {
+    text-align: left;
+    font-size: 24px;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+@media (min-width: 480px) {
+    .services{
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 700px) {
+    .services{
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .services{
+        padding: 0 100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .services{
+        padding: 0 300px;
+    }
+}
+
+.services h3{
+    text-align: left;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Play', sans-serif;
+}
+
+.services .col-3{
+    padding: 150px;
+    max-height: 500px;
+    padding: 0px;
+    display: inline-block;
+    float: left;
+}
+
+.services .col-3{
+    padding: 150px;
+    max-height: 500px;
+    padding: 0px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+.services .col-3 img{
+    padding-bottom: 10px;
+}
+
+.services .col-3 h4 {
+    font-size: 18px;
+}
+.services .col-3 p {
+    padding-top: 20px;
+    font-size: 13px;
+    margin: 15px;
+    margin: 0;
+}
+
+.services .col-3{
+    width: 100%;
+}
+
+@media (min-width: 480px) {
+    .services .col-3{
+        width: 50%;
+    }
+}
+
+@media (min-width: 900px) {
+    .services .col-3{
+        width: 33.33%;
+        padding-right: 20px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .services .col-3{
+        width: 33.33%;
+        padding-right: 50px;
+    }
+    
+}
